@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">MyApplication</string>
+    <string name="app_name">MyApp</string>
 
-    <string name="hint_nom">Nom complet</string>
-    <string name="hint_email">Adresse e-mail</string>
-    <string name="hint_tel">Numéro de mobile</string>
-    <string name="hint_residence">Lieu de résidence</string>
-    <string name="hint_localite">Localité</string>
+    <string name="hint_nom">NOM ET PRENOM</string>
+    <string name="hint_email"> e-mail</string>
+    <string name="hint_tel">Numéro de TELEPHONE</string>
+    <string name="hint_residence"> résidence</string>
+    <string name="hint_localite">ville</string>
 
-    <string name="valider">Valider</string>
+    <string name="done">done</string>
 </resources>

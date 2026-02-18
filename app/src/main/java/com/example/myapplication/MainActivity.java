@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
 
     EditText etNom, etEmail, etTelephone, etResidence, etLocalite;
-    Button btnValider;
+    Button btndone;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,9 +22,9 @@ public class MainActivity extends AppCompatActivity {
         etTelephone = findViewById(R.id.etTelephone);
         etResidence = findViewById(R.id.etResidence);
         etLocalite = findViewById(R.id.etLocalite);
-        btnValider = findViewById(R.id.btnValider);
+        btndone = findViewById(R.id.btnValider);
 
-        btnValider.setOnClickListener(v -> {
+        btndone.setOnClickListener(v -> {
 
             String nom = etNom.getText().toString().trim();
             String email = etEmail.getText().toString().trim();
@@ -38,11 +38,11 @@ public class MainActivity extends AppCompatActivity {
             }
 
             Intent intent = new Intent(MainActivity.this, Screen2Activity.class);
-            intent.putExtra("nom", nom);
+            intent.putExtra("nom et prenom", nom);
             intent.putExtra("email", email);
-            intent.putExtra("tel", tel);
+            intent.putExtra("telphone", tel);
             intent.putExtra("residence", residence);
-            intent.putExtra("localite", localite);
+            intent.putExtra("ville", localite);
 
             startActivity(intent);
         });

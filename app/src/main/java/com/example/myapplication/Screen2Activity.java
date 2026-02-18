@@ -14,7 +14,7 @@ public class Screen2Activity extends AppCompatActivity {
         setContentView(R.layout.activity_screen2);
 
         TextView tvRecap = findViewById(R.id.tvRecap);
-        Button btnRetour = findViewById(R.id.btnRetour);
+        Button btnRetour = findViewById(R.id.btngoback);
 
         // Récupérer les données
         String nom = getIntent().getStringExtra("nom");

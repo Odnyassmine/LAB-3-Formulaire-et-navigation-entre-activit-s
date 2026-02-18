@@ -14,9 +14,9 @@
         android:textStyle="bold"/>
 
     <Button
-        android:id="@+id/btnRetour"
+        android:id="@+id/btngoback"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Retour"
+        android:text="goback"
         android:layout_marginTop="20dp"/>
 </LinearLayout>
